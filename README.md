@@ -1,26 +1,26 @@
-**Description for Android Food Recipes App:**
+**App Description:**
 
-Discover a world of culinary inspiration with our intuitive Food Recipes App! Effortlessly explore a wide variety of recipes using the powerful search feature, making it easy to find the perfect dish for any occasion.
+**Food Recipes App:**
 
 **Features include:**
 
-Search Recipes: Quickly locate your desired recipe using the built-in search bar.
+**1)** Search Recipes: Quickly locate your desired recipe using the built-in search bar.
 
-Favorite Recipes: Save your favorite dishes with a single tap on the floating action button for easy access later.
+**2)** Favorite Recipes: Save your favorite dishes with a single tap on the floating action button for easy access later.
 
-Manage Favorites: Remove recipes from your favorites with a simple tap on the delete icon.
+**3)** Manage Favorites: Remove recipes from your favorites with a simple tap on the delete icon.
 
 **Technology Stack:**
 
-Room Database: Efficiently store and manage your favorite recipes locally.
+**1)** Room Database: Efficiently store and manage your favorite recipes locally.
 
-MVVM Architecture: Ensures clean, maintainable, and scalable code structure.
+**2)** MVVM Architecture: Ensures clean, maintainable, and scalable code structure.
 
-Retrofit: Seamlessly fetch recipes from remote servers.
+**3)** Retrofit: Seamlessly fetch recipes from remote servers.
 
-Picasso: Load and display recipe images with ease and speed.
+**4)** Picasso: Load and display recipe images with ease and speed.
 
-Lottie Animations: Enhance the user experience with engaging and smooth animations.
+**5)** Lottie Animations: Enhance the user experience with engaging and smooth animations.
 
 <img width="218" alt="Untitled" src="https://github.com/user-attachments/assets/e33c9d85-41e3-40fb-ae7b-307a92bc38d1" />
 <img width="219" alt="Untitled4" src="https://github.com/user-attachments/assets/83189750-7d2c-47d5-91b7-fccfebab17d6" />
