@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="5dp"
+    android:id="@+id/fvtCardView"
+    app:cardCornerRadius="20dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="5dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/fvtImg"
+            android:layout_width="203dp"
+            android:layout_height="232dp"
+            />
+
+        <TextView
+            android:id="@+id/fvtName"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:layout_toRightOf="@id/fvtImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/fvtDiff"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_below="@id/fvtName"
+            android:layout_toRightOf="@id/fvtImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/fvtRating"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_below="@id/fvtDiff"
+            android:layout_toRightOf="@id/fvtImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+
+        <TextView
+            android:id="@+id/fvtCuisine"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_below="@id/fvtRating"
+            android:layout_toRightOf="@id/fvtImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <ImageView
+            android:id="@+id/deleteImage"
+            android:layout_width="62dp"
+            android:layout_height="55dp"
+            android:layout_below="@id/fvtName"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="120dp"
+            android:layout_toRightOf="@id/fvtCuisine"
+            app:srcCompat="@drawable/baseline_delete_24" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
